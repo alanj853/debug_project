@@ -1,7 +1,7 @@
 defmodule DebugProject.MixProject do
   use Mix.Project
 
-  @system_dir System.get_env("SYS_DIR") || "./"
+  @system_dir System.get_env("SYS_ROOT") || "./"
   System.put_env("EXQLITE_USE_SYSTEM", "1")
   System.put_env("EXQLITE_SYSTEM_LDFLAGS", "-L#{@system_dir}/usr/lib/ -lsqlite3")
   System.put_env("EXQLITE_SYSTEM_CFLAGS", "-I#{@system_dir}/usr/include")

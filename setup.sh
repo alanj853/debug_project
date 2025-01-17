@@ -39,3 +39,7 @@ make install TYPE=debug
 ## compile elixir
 cd $ELIXIR_SRC
 PATH=$OTP_24_BIN_DIR:$PATH make
+
+## backup beam files
+cp -v $OTP_24_INSTALL/lib/erlang/erts-12.1.3/bin/beam.smp $OTP_24_INSTALL/lib/erlang/erts-12.1.3/bin/beam.smp.bak
+cp -v $OTP_24_INSTALL/lib/erlang/erts-12.1.3/bin/beam.debug.smp $OTP_24_INSTALL/lib/erlang/erts-12.1.3/bin/beam.debug.smp.bak
