@@ -1,3 +1,5 @@
+Demo project to illustration issues with debug erlang emulator
+
 To setup
 ```
 bash setup.sh
