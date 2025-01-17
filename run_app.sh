@@ -12,4 +12,6 @@ SYS_ROOT=/home/pokyuser/.nerves/artifacts/nerves_system_poky-portable-3.1.14-20/
 export LD_LIBRARY_PATH=$SYS_ROOT/usr/lib:$LD_LIBRARY_PATH
 export PATH=$OTP_24_BIN_DIR:$ELIXIR_BIN_DIR:$PATH
 
+rm -rf _build
+mix deps.get
 iex -S mix
