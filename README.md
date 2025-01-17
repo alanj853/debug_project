@@ -1,21 +1,4 @@
-# DebugProject
+To run:
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `debug_project` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:debug_project, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/debug_project](https://hexdocs.pm/debug_project).
+SYS_DIR=/home/pokyuser/.nerves/artifacts/nerves_system_poky-portable-3.1.14-20/toolchain/sysroots/x86_64-pokysdk-linux V=1 ERL_ROOTDIR=/home/pokyuser/.asdf/installs/erlang/24.1.3 ERTS_INCLUDE_DIR=/home/pokyuser/.asdf/installs/erlang/24.1.3/erts-12.1.3/include LD_LIBRARY_PATH=$SYS_DIR/usr/lib:$LD_LIBRARY_PATH iex -S mix
 
