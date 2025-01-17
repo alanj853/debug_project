@@ -24,3 +24,4 @@ debug_project-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+workspace/
