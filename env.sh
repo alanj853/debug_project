@@ -9,5 +9,5 @@ ELIXIR_BIN_DIR=$ELIXIR_SRC/bin
 SYS_ROOT=/home/pokyuser/.nerves/artifacts/nerves_system_poky-portable-3.1.14-20/toolchain/sysroots/x86_64-pokysdk-linux
 
 # needed for runtime to find .so files
-export LD_LIBRARY_PATH=$SYS_ROOT/usr/lib:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=$SYS_ROOT/usr/lib:$LD_LIBRARY_PATH
 export PATH=$OTP_24_BIN_DIR:$ELIXIR_BIN_DIR:$PATH
